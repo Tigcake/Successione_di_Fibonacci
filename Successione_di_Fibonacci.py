@@ -21,7 +21,7 @@ while True:
 
     try:
 
-        target = int(input('機器人：閣下欲知費式數列何項？\n\n您：'))
+        target = int(input('機器人：閣下欲知費氏數列何項？\n\n您：'))
 
         os.system('cls')
 
