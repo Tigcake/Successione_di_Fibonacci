@@ -40,16 +40,12 @@ while True:
             print('機器人：請稍後...')
 
             if len(Successione_di_Fibonacci) <= target:
-                
-                os.system('cls')
 
                 for _ in range(target - len(Successione_di_Fibonacci)):
 
                     _count += 1
 
                     Successione_di_Fibonacci.append(Successione_di_Fibonacci[_count-2] + Successione_di_Fibonacci[_count-3])
-
-                    print(len(Successione_di_Fibonacci), '|', Successione_di_Fibonacci[_count-2] + Successione_di_Fibonacci[_count-3])
 
             os.system('cls')
 
