@@ -7,14 +7,6 @@ Successione_di_Fibonacci = [1, 1]
 
 _count = 0
 
-for _ in range(10000):
-
-    _count += 1
-
-    if len(Successione_di_Fibonacci) < _count:
-
-        Successione_di_Fibonacci.append(Successione_di_Fibonacci[_count-2] + Successione_di_Fibonacci[_count-3])
-
 while True:
 
     os.system('cls')
